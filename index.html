@@ -1,8 +1,119 @@
 <html>
 	<head>
+		<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+		<script src="https://use.fortawesome.com/1ce05b4b.js"></script>
+
+		<style>
+			.bar-item {
+				padding: 10px;
+			}
+			.ico {
+				color: palevioletred;
+			}
+			table {
+  				border-collapse: collapse;
+ 				width: 100%;
+			}
+			th, td {
+			padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+			}
+
+			ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			border: 1px solid #e7e7e7;
+			background-color: #f3f3f3;
+			}
+
+			li {
+			float: left;
+			}
+
+			li a {
+			display: block;
+			color: #666;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+			background-color: #ddd;
+			}
+		</style>
 
 	</head>
 	<body>
-		
+		<div class="body"> 
+			<div class="topnav" id="topnav">
+				<div class="top-bar">
+					<nav class="top-nav-bar"> 
+						<ul>
+							<li><a class="bar-item" href="/new/"><span class="ico fa-regular fa-plus"></span> New <span class="fa-thin fa-angle-down"></span></a></li>
+							<li><a class="bar-item" href="/upload/"><span class="ico fa-regular fa-up-to-line"></span> Upload <span class="fa-thin fa-angle-down"></span></a></li>
+							<li><a class="bar-item" href="/sync/"><span class="ico fa-regular fa-arrows-rotate"></span> Sync <span class="fa-thin fa-angle-down"></span></a></li>
+							<li><a class="bar-item" href="/export/"><span class="ico fa-regular fa-file-export"></span> Export to Excel <span class="fa-thin fa-angle-down"></span></a></li>
+							<li><a class="bar-item" href="/flow/"><span class="ico fa-solid fa-florin-sign"></span> Flow <span class="fa-thin fa-angle-down"></span></a></li>
+							<li><a class="bar-item" href="/more/"><span class="fa-solid fa-ellipsis"></span></a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="section">
+				<h1>Documents</h1>
+				<div>
+					<table>
+						<tr>
+						<th><span class="fa-light fa-file"></span></th>
+						<th>Name <span class="fa-thin fa-angle-down"></span></th>
+						<th>Modified <span class="fa-thin fa-angle-down"></span></th>
+						<th>Modified By <span class="fa-thin fa-angle-down"></span></th>
+						<th><span class="fa-thin fa-plus"></span> Add column</th>
+						</tr>
+						<tr>
+						<td><span class="fa-solid fa-folders"></span></td>
+						<td>CAS</td>
+						<td>April 30</td>
+						<td>Megan Bowen</td>
+						<td> </td>
+						</tr>
+						<tr>
+						<td><span class="fa-regular fa-file-excel"></span></td>
+						<td>CoasterAndBargeLoading.xlsx</td>
+						<td>A few seconds ago</td>
+						<td>Administrator MOD</td>
+						<td> </td>
+						</tr>
+						<tr>
+						<td><span class="fa-regular fa-file-excel"></span></td>
+						<td>RevenueByServices.xlsx</td>
+						<td>A few seconds ago</td>
+						<td>Administrator MOD</td>
+						<td> </td>
+						</tr>
+						<tr>
+						<td><span class="fa-regular fa-file-excel"></span></td>
+						<td>RevenueByServices2016.xlsx</td>
+						<td>A few seconds ago</td>
+						<td>Administrator MOD</td>
+						<td> </td>
+						</tr>
+						<tr>
+						<td><span class="fa-regular fa-file-excel"></span></td>
+						<td>RevenueByServices2017.xlsx</td>
+						<td>A few seconds ago</td>
+						<td>Administrator MOD</td>
+						<td> </td>
+						</tr>
+					</table>
+				</div>
+			
+
+			</div>
+		</div>
 	</body>
 </html>

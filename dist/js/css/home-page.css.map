@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"css/home-page.css","sourcesContent":[],"sourceRoot":""}
+{"version":3,"sources":["webpack:///./src/styles/pages/home-page.scss"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA,C","file":"css/home-page.css","sourcesContent":["table {\n  border-collapse: collapse;\n  width: 100%;\n}\n\nth, td {\n  padding: 8px;\n  text-align: left;\n  border-bottom: 1px solid #ddd;\n}"],"sourceRoot":""}
